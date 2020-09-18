@@ -2,7 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sa.demo</groupId>
   <artifactId>webtestApp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>SA demo</name>
   <dependencies>
@@ -21,6 +20,7 @@
 </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <finalName>webtestApp</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -38,4 +38,5 @@
       </plugin>
     </plugins>
   </build>
+  <version>0.0.1-SNAPSHOT</version>
 </project>
