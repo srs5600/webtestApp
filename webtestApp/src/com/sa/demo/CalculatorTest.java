@@ -40,14 +40,14 @@ public class CalculatorTest {
 
 	@Test
 	public void testMultiply() {
-        int a = 10;
+        int a = 20;
         int b = 25;
-        long expectedResult = 250;
+        long expectedResult = 500;
         long result = objCalcTest.multiply(a, b);
         Assert.assertEquals(expectedResult, result);;
 	}
 
-	@Test
+	/*@Test
 	public void testDivide() {
         int a = 56;
         int b = 10;
@@ -55,5 +55,5 @@ public class CalculatorTest {
         double result = objCalcTest.divide(a, b);
         Assert.assertEquals(expectedResult, result,0.00005);
 	}
-
+*/
 }
