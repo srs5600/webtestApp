@@ -47,10 +47,10 @@ public class webtestServlet extends HttpServlet {
      case "multiplication":
          out.println("Answer = "+(Integer.parseInt(n1) * Integer.parseInt(n2)));
          break;
-		/*
-		 * default: out.println("Answer = "+(Integer.parseInt(n1) /
-		 * Integer.parseInt(n2))); break;
-		 */
+		
+		  default: out.println("Answer = "+(Integer.parseInt(n1) /
+		  Integer.parseInt(n2))); break;
+		 
  } 
 	}
 
